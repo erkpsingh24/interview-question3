@@ -7,13 +7,14 @@
 * application uses file-based local h2 database as the persistence layer which can be accessed at `http://localhost:5000/h2`
 * for now the database is recreated when the application is started, this can be changed in application.yml `jpa.hibernate.ddl-auto : update`
 
-# Work with different apis using Swagger implementation at:
+# Swagger url:
 * `http://localhost:5000/swagger-ui/#/`
 
-#Java docs can be obtained at:
+# Java docs:
 * run `mvn javadoc:javadoc`
-* open `target/site/apidocs/index.html` 
-#Test coverage stats are available at:
+* open `target/site/apidocs/index.html`
+ 
+# Test coverage stats:
 * run `mvn test`
 * run `mvn jacoco:report`
 * open `~/target/site/jacoco/index.html`
